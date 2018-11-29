@@ -3,7 +3,7 @@
 #include<string.h>
 int main()
 {
-	int cont, quan=0, tan;
+	int cont, quan=0;
 	char pa[30], let;
 	
 	printf("\nEntre com uma palavra:");
