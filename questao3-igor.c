@@ -2,14 +2,14 @@
 #include<stdio.h>
 int main ()
 {
-	int objeto[5], cont, mini, quan=0;
+	int objeto[3000], cont, mini, quan=0;
 	
-	for(cont=0; cont<5; cont++){
+	for(cont=0; cont<3000; cont++){
 		printf("Coloque o peso do objeto %d em gramas:", cont+1);
 		scanf("%d", &objeto[cont]);
 	}
 	mini=objeto[0];
-	for (cont=0; cont<5; cont++){
+	for (cont=0; cont<3000; cont++){
 		if(objeto[cont]<mini){
 			mini=objeto[cont];
 			quan=0;
